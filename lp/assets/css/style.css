@@ -41,7 +41,6 @@ picture {
 
 .allwrap {
   overflow: hidden;
-  background: #ffecf2;
 }
 
 main{
@@ -54,7 +53,6 @@ main{
 }
 
 .content--main {
-  background: #ffecf2;
   padding-top: 49px;
 }
 
@@ -66,12 +64,7 @@ main{
   max-width: 450px;
   width: 100%;
   margin: auto;
-  background: #DFECF4;
   position: relative;
-}
-
-.img-auto {
-  vertical-align: bottom;
 }
 
 .mn01,
@@ -83,7 +76,6 @@ main{
 .mn07,
 .mn08
  {
-  /* margin-bottom: -1px; */
   background: #0F6FE0;
 }
 
