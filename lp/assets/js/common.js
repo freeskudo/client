@@ -33,6 +33,7 @@
 //   })
 // });
 
+// SP用
 var swiper = new Swiper('.swiper', {
   speed: 1000,
   navigation: {
@@ -47,4 +48,14 @@ var swiper = new Swiper('.swiper', {
   pagination: {
     el: ".swiper-pagination"
   },
+
+  // PC用
+  // スライドの表示枚数：1025px以上の場合
+  breakpoints: {
+    1025: {
+      slidesPerView: 2,
+      centeredSlides: true,
+      initialSlide: 1,
+    }
+  }
 });

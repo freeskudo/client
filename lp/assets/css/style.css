@@ -171,7 +171,7 @@ header {
   margin-right: 3px;
 }
 
-.img_top{
+.img_top_sp{
   padding-top: 49px;
 }
 
@@ -276,6 +276,22 @@ header {
     line-height: 300px;
     height: 450px;
   }
+
+  /* スマホ表示  */
+  /* header 画像 工藤作成 */
+  .head_pc {
+    display: none;
+  }
+
+    /* main 画像 工藤作成 */
+    .img_top_pc {
+      display: none;
+    }
+
+   /* main02~08 画像 工藤作成 */
+   .img_main_pc {
+    display: none;
+  }
 }
 
 @media screen and (max-width:1000px) {
@@ -304,3 +320,118 @@ header {
 @media screen and (max-width:362px) {
 
 }
+
+/* Ipad用 */
+@media screen and (min-width: 768px) {
+
+}
+
+/* PC用 工藤作成*/
+@media screen and (min-width: 1025px) {
+  .content--item {
+    max-width: 1440px;
+    width: 100%;
+  }
+
+  /* header 画像 工藤作成 */
+  .head_sp {
+    display:none;
+  }
+
+  /* head ボタン 工藤作成 */
+  .float-btnarea {
+    background: none;
+    position: absolute;
+    top: 26px;
+    right: 50px;
+  }
+  .float-btnarea .float-btn{
+    width: 280px;
+  }
+
+  /* main01 画像 工藤作成 */
+  .img_top_sp {
+    display: none;
+  }
+
+   /* main02~08 画像 工藤作成 */
+   .img_main_sp {
+    display: none;
+  }
+
+  /* main02 ボタン 工藤作成 */
+  .mn02-btnarea {
+    position: absolute;
+    top: -260px;
+    right: 240px;
+    width: 100%;
+  }
+  .mn02-btnarea .float-btn{
+    width: 320px;
+  }
+
+  /* main03 ボタン 工藤作成 */
+  .mn03-btnarea {
+    z-index: 100;
+    position: absolute;
+    bottom: 36px;
+    left: -10px;
+    width: 100%;
+  }
+  .mn03-btnarea .float-btn{
+    width: 480px;
+  }
+
+  /* main05 ボタン 工藤作成 */
+  .mn05-btnarea{
+    z-index: 100;
+    position: absolute;
+    top: -150px;
+    left: -5px;
+    width: 100%;
+  }
+  .mn05-btnarea .float-btn{
+    width: 480px;
+  }
+
+  /* main07 ボタン 工藤作成 */
+  .mn07-btnarea{
+    z-index: 100;
+    position: absolute;
+    top: -140px;
+    left: 23px;
+    width: 100%;
+  }
+  .mn07-btnarea .float-btn{
+    width: 480px;
+  }
+
+  /* main08 ボタン 工藤作成 */
+  .mn08-btnarea{
+    z-index: 100;
+    position: absolute;
+    top: -150px;
+    left: -10px;
+    width: 100%;
+  }
+  .mn08-btnarea .float-btn{
+    width: 480px;
+  }
+
+  /* swiper部分 工藤作成 */
+  .swiper-slide {
+    /* スライドのサイズを調整、中身のテキスト配置調整、背景色 */
+    background-color: #DFECF4;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 300px;
+    height: 800px;
+  }
+
+  .swiper-button-next,.swiper-button-prev {
+  width: 700px;
+  }
+
+}
+  
